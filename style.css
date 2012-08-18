@@ -1,0 +1,74 @@
+@charset 'UTF-8';
+body{
+    padding:1em;    
+}
+table{
+    margin:auto;
+    width:100%;
+    margin-bottom:2em;
+}
+table td{
+    padding:0.1em;
+    border: thin solid #CCC;
+    text-align:center;
+    word-wrap:break-word;
+}
+
+#mainTable{
+    table-layout:fixed;    
+}
+#otherTable td:first-child,
+#addForm td:last-child,
+#mainTable td:first-child,
+#mainTable td:last-child{
+    border:none;
+}
+#addForm td{
+    padding:0.5em;    
+}
+#otherTable>caption{
+    color:gray;
+    user-select: none;
+}
+#otherTable>caption:hover{
+    color:blue;
+    cursor:pointer;
+}
+#otherTable>caption:active{
+    color:red;
+    cursor:pointer;
+}
+#otherTable>caption.show:before{
+    content:"▾ ";    
+}
+#otherTable>caption.hide:before{
+    content:"▸ ";    
+}
+caption{
+    font-size:large;    
+    font-variant:small-caps;
+    font-weight:bold;
+    text-align:left;
+}
+
+caption:after{
+    content:":";    
+}
+
+.late{
+    color:red;    
+}
+
+input{
+    font-size:small;
+    width:90%;
+    text-align:center;
+}
+input[type="submit"]{
+    width:auto;    
+}
+
+small{
+    font-size:x-small;    
+}
+

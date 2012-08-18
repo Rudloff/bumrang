@@ -1,0 +1,1 @@
+DELETE FROM bumrang_entries WHERE num = :num

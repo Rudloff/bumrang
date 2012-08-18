@@ -1,0 +1,1 @@
+UPDATE bumrang_entries SET id = ?, name = ?, firstname = ?,  email = ?,  other1 = ?,  other2 = ?,  other3 = ?,  other4 = ?, date1 = ?  WHERE  num = ?

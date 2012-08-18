@@ -1,0 +1,1 @@
+SELECT * FROM bumrang_entries WHERE num = :num ORDER BY date1

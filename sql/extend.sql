@@ -1,0 +1,1 @@
+UPDATE bumrang_entries SET extend = :extend WHERE num = :num

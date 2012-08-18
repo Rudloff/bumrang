@@ -1,0 +1,1 @@
+INSERT INTO bumrang_entries (id, name, firstname, email, date1, date2, other1, other2, other3, other4) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
